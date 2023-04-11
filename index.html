@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>CODEGRU</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+    <!-- end loader -->
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="active" href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="members.html">MEMBERS</a>
+        <a href="works.html">WORKS</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="head-top">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="index.html">CODEGRU</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <ul class="social_icon text_align_right d_none">
+                            <li> <a href="https://www.facebook.com/profile.php?id=100087570788013"><i
+                                        class="fa fa-facebook-f"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li> <a href="https://www.instagram.com/code_guru_official/"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a></li>
+                            <li> <a href="https://youtube.com/channel/UCRnNJpOJwSNLagLcmEafgRw"><i
+                                        class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="email text_align_right">
+                            <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user"
+                                        aria-hidden="true"></i></a></li>
+                            <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search"
+                                        style="cursor: pointer;" aria-hidden="true"></i></a> </li>
+                            <li>
+                                <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start slider section -->
+    <div id="top_section" class=" banner_main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/CODEGRU LOGO.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Write<br>Great Codes,Be A Programmer</h1>
+                                                    <p>Let's pledge to compile our life to execute other's problems.
+                                                    </p>
+                                                    <a class="read_more" href="Javascript:void(0)">Read More </a><a
+                                                        class="read_more" href="Javascript:void(0)">Get A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/CODEGRU LOGO.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Be Errorless<br> & Precise like Arrow </h1>
+                                                    <p>Never worry for your doubts we are here to serve.
+                                                    </p>
+                                                    <a class="read_more" href="Javascript:void(0)">Read More </a><a
+                                                        class="read_more" href="Javascript:void(0)">Get A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container-fluid">
+                                    <div class="carousel-caption relative">
+                                        <div class="row d_flex">
+                                            <div class="col-md-6">
+                                                <div class="con_img">
+                                                    <figure><img class="img_responsive" src="images/CODEGRU LOGO.png"
+                                                            alt="#" /></figure>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="bluid">
+                                                    <h1>Think Deep<br>Build your logic building.</h1>
+                                                    <p>Great architecture requires brilliant mind.
+                                                    </p>
+                                                    <a class="read_more" href="Javascript:void(0)">Read More </a><a
+                                                        class="read_more" href="Javascript:void(0)">Get A Quote </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end slider section -->
+    <!-- wallet -->
+    <div class="wallet">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <a href="https://chat.whatsapp.com/Dgf4Ub8rs7091Vab00OdjM">
+                            <i><img src="images/wa1.svg" alt="#" /></i>
+                            <h3>JOIN</h3>
+                            <p>Start learning and working with us and let's enhance together. </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <a href="https://youtube.com/channel/UCRnNJpOJwSNLagLcmEafgRw">
+                            <i><img src="images/wa2.svg" alt="#" /></i>
+                            <h3>WATCH</h3>
+                            <p>Start visualising depth depth of coding by watching our online videos.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <a href="https://drive.google.com/drive/folders/1FRRrF5VPtVOfFFHWXGCQtSLMFSdRy617">
+                            <i><img src="images/wa3.svg" alt="#" /></i>
+                            <h3>MOBILE APP </h3>
+                            <p>Developmnet is underprocessing soon it will be launched. </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div id="wa_hover" class="wallet_box text_align_center">
+                        <a href="https://drive.google.com/drive/folders/1FRLWP_xyKfaz6SO3l2kyuWL-AfWK5lH2">
+                            <i><img src="images/wa4.svg" alt="#" /></i>
+                            <h3>NOTES</h3>
+                            <P>Grab & get access to be the easiest notes .</P>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end wallet -->
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_border">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="titlepage text_align_left">
+                                    <h2>About Us</h2>
+                                </div>
+                                <div class="about_text">
+                                    <p>CodeGru aims to establish a coding culture on campus, reaching every student
+                                        passionate about coding. The club's motto is to Create-Build-Innovate. The club
+                                        was started by a group of students from the departments of BTECH CSE who wanted
+                                        to interact with like-minded peers and pioneer the world of computer science.
+                                    </p>
+                                    <a class="read_more" href="about.html">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about_img">
+                                    <figure><img class="img_responsive" src="images/dev bg.png" alt="#" /></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- testimonial -->
+    <div class="testimonial">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="border_testi">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="titlepage text_align_center">
+                                    <h2>MEMBERS</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d_flex">
+                            <div class="col-md-10 offset-md-1">
+                                <div id="testimo" class="carousel slide our_testimonial" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                                        <li data-target="#testimo" data-slide-to="1"></li>
+                                        <li data-target="#testimo" data-slide-to="2"></li>
+                                        <li data-target="#testimo" data-slide-to="3"></li>
+                                        <li data-target="#testimo" data-slide-to="4"></li>
+                                        <li data-target="#testimo" data-slide-to="5"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <a href="https://web-manishgupta.vercel.app/">
+                                                                <div class="testomoniam_text text_align_center">
+                                                                    <i><img src="images/DP.png" alt="#" /></i>
+                                                                    <h3>Manish Gupta</h3>
+                                                                    <span>CodeGru</span>
+                                                                    <img src="images/icon.png" alt="#" />
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a href="https://web-manishgupta.vercel.app/">
+                                                                    <p>Hii everyone myself Manish Gupta, a Btech CSE
+                                                                        student at JISU . To me programming is just like
+                                                                        a supernatural power which can turn virtuality
+                                                                        to reality.Apart from being nerd i am also pro
+                                                                        at battleroyale games.My jeevan mantra is -"Be
+                                                                        fearless -Karma makes soul a sanctity being ."
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/rishav dp.png" alt="#" /></i>
+                                                                <h3>Rishav Purakayastha</h3>
+                                                                <span>CodeGru</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a
+                                                                    href="https://instagram.com/0_.rishav._0?igshid=NTdlMDg3MTY=">
+                                                                    <p>Hi..this is rishav, studying b tech cse in jisu.
+                                                                        Apat from a student i'm a independent musician.
+                                                                        You can follow me on Instagram for more updates.
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/PRA DP.png" alt="#" /></i>
+                                                                <h3>Pratyush Singha</h3>
+                                                                <span>CodeGru</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a href="https://pratyushsingha.vercel.app/">
+                                                                    <p>Frontend Developer | Proficient in HTML,
+                                                                        tailwindcss, and JavaScript | Skilled in React |
+                                                                        Passionate about Building Responsive Websites
+                                                                        and Web Applications</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/akshaydp.png" alt="#" /></i>
+                                                                <h3>Akshay Kumar Mandal</h3>
+                                                                <span>CodeGru</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a
+                                                                    href="https://www.linkedin.com/in/akshay-kumar-40ba9920a/">
+                                                                    <p>"As a CSE student at JIS University and a
+                                                                        passionate web developer, I am constantly
+                                                                        seeking to learn and improve my skills. With a
+                                                                        strong interest in technology and a geeky love
+                                                                        for gaming."</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/sahil dp.png" alt="#" /></i>
+                                                                <h3>Sahil Das</h3>
+                                                                <span>CodeGru</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a
+                                                                    href="https://instagram.com/sahilkumar192019?igshid=NTdlMDg3MTY=">
+                                                                    <p>I am Sahil Das an computer science
+                                                                        engineering student.Although i love to code
+                                                                        in C++ and Java , I still love to use others
+                                                                        too.</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="container">
+                                                <div class="carousel-caption posi_in">
+                                                    <div class="row">
+                                                        <div class="col-md-3">
+                                                            <div class="testomoniam_text text_align_center">
+                                                                <i><img src="images/harsh-modified.png" alt="#" /></i>
+                                                                <h3>Kumar Harsh</h3>
+                                                                <span>CodeGru</span>
+                                                                <img src="images/icon.png" alt="#" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9">
+                                                            <div class="testomoniam_text text_align_left">
+                                                                <a
+                                                                    href="https://www.instagram.com/kumar_harsh_4275?r=nametag">
+                                                                    <p>Hi friends Harsh this side an engineering
+                                                                        student at JIS UNIVERSITY who loves python
+                                                                        although I can code in any prefered
+                                                                        language. </p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testimonial -->
+    <!-- works -->
+    <div class="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>Works</h2>
+                    </div>
+                </div>
+                <div class="wallet">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <div id="wa_hover" class="wallet_box text_align_center">
+                                    <a href="calculator.html">
+                                        <i><img src="images/wa1.svg" alt="#" /></i>
+                                        <h3>CALCULATOR</h3>
+                                        <p>.....Calculates exrementing your daily problems........</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div id="wa_hover" class="wallet_box text_align_center">
+                                    <a href="tic tac toe.html">
+                                        <i><img src="images/wa2.svg" alt="#" /></i>
+                                        <h3>TIC TAC TOE</h3>
+                                        <p>.......Calculates exrementing your daily problems..........</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div id="wa_hover" class="wallet_box text_align_center">
+                                    <a href="....">
+                                        <i><img src="images/wa2.svg" alt="#" /></i>
+                                        <h3>CODEGRU APP</h3>
+                                        <p>...........OFFICIAL ANDROID APP UPCOMING SOON............</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div id="wa_hover" class="wallet_box text_align_center">
+                                    <a href="....">
+                                        <i><img src="images/wa2.svg" alt="#" /></i>
+                                        <h3>CODE RUNNER</h3>
+                                        <p>...............RUN AND TESTS YOUR COSE EASILY..................</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- works -->
+    <!-- contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage text_align_center">
+                        <h2>Request A Call Back</h2>
+                    </div>
+                </div>
+                <div class=" col-md-10 offset-md-1">
+                    <form id="request" class="main_form">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Email" type="type" name="Email">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="contactus" placeholder="Phone number" type="type" name="Phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="send_btn"><a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfK-O9mKFvd0wy_doQ9uYBcf6ZZD48zqZKWRm74n85_qT8T1Q/viewform?usp=sf_link">Send</button></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="logo_bottom" href="index.html">CODEGRU</a>
+                    </div>
+                    <div class="col-md-3 col-sm-6" ">
+                  <div class=" Informa conta ">
+                     <h3>Contact Us</h3>
+                     <ul>
+                        <li> <a href=" Javascript:void(0) "> <i class=" fa fa-map-marker " aria-hidden=" true "></i> Kolkata
+                           </a>
+                        </li>
+                        <li> <a href=" Javascript:void(0) "><i class=" fa fa-phone " aria-hidden=" true "></i> Call +91 8910307859
+                           </a>
+                        </li>
+                        <li> <a href=" mailto:codeguruofficial@gmail.com "> <i class=" fa fa-envelope " aria-hidden="
+                        true "></i>codegruofficial@gmail.com
+                           </a>
+                        </li>
+                     </ul>
+                     
+                  </div>
+               </div>
+               <div class=" col-md-3 col-sm-6 "">
+                        <div class="Informa helpful">
+                            <h3>Useful Link</h3>
+                            <ul>
+                                <li><a href="https://www.facebook.com/profile.php?id=100087570788013"><i
+                                            class="fa fa-facebook-f"></i> Facebook</a>
+                                </li>
+                                <li><a href="https://www.instagram.com/code_guru_official/"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i> Instagram</a>
+                                </li>
+                                <li><a href="https://youtube.com/channel/UCRnNJpOJwSNLagLcmEafgRw"><i
+                                            class="fa fa-youtube-play" aria-hidden="true"></i> Youtube</a>
+                                </li>
+                                <li class="d_none"> <a
+                                        href="https://drive.google.com/drive/folders/1FRLWP_xyKfaz6SO3l2kyuWL-AfWK5lH2"><i
+                                            class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i>
+                                        Notes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6" ">
+                  <div class=" Informa ">
+                     <h3>Office</h3>
+                     <ul>
+                        <li> <a href=" Javascript:void(0) "> <i class=" fa fa-map-marker " aria-hidden=" true "></i> JIS University </a>
+                        </li> 
+                        <li>
+                            81,Nilgunj Road
+                        </li>
+                        <li>
+                           Agarpara,kolkata
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class=" col-md-3 col-sm-6 ">
+                  <div class=" Informa ">
+                     <h3>Newsletter</h3>
+                     <form class=" newslatter_form ">
+                        <input class=" ente " placeholder=" Enter your email " type=" text " name=" Enter your email ">
+                        <button class=" subs_btn ">Subscribe</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class=" copyright text_align_center ">
+               <div class=" container ">
+                  <div class=" row ">
+                     <div class=" col-md-12 ">
+                        <a href=" https://web-manishgupta.vercel.app/">
+                        <p>© 2022 By Manish Gupta</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src=" js/jquery.min.js "></script>
+    <script src=" js/bootstrap.bundle.min.js "></script>
+    <script src=" js/jquery-3.0.0.min.js "></script>
+    <script src=" js/custom.js "></script>
+    <script type=" module">
+                            // Import the functions you need from the SDKs you need
+                            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+                            import { getAnalytics } from
+                            "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+                            // TODO: Add SDKs for Firebase products that you want to use
+                            // https://firebase.google.com/docs/web/setup#available-libraries
+
+                            // Your web app's Firebase configuration
+                            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                            const firebaseConfig = {
+                            apiey: "AIzaSyC_qbr0gthugvZJl8cuDJZ_XArqoVGS3y8",
+                            authDomain: "codegru-6330b.firebaseapp.com",
+                            projectId: "codegru-6330b",
+                            storageBucket: "codegru-6330b.appspot.com",
+                            messagingSenderId: "189638465266",
+                            appId: "1:189638465266:web:869f1a4e1cf28e6153626b",
+                            measurementId: "G-5GF4293S6N"
+                            };
+
+                            // Initialize Firebase
+                            const app = initializeApp(firebaseConfig);
+                            const analytics = getAnalytics(app);
+                            </script>
+</body>
+
+</html>
